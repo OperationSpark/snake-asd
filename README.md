@@ -33,7 +33,7 @@ Then, rename the folder to `snake`
 
 Before beginning, complete the <a href="https://drive.google.com/open?id=1h9DBLktvwVCODaAn4vg5FKnbkbyYjLIMik5IMYMbhY0" target="_blank"> Snake Worksheet </a>
 
-<img src="img/snake-frame-visualization.jpg">
+<img src="img/snake-visualization.jpg">
 
 # Plan of Attack
 1. Get the Snake's head to appear on the screen
