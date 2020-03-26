@@ -1,14 +1,12 @@
 # Snake
-Building Snake from scratch in Advanced Software Development
+Building Snake from scratch in Advanced Software Development.  <a href="https://benspector3.github.io/projects/snake/index.html" target="_blank"> Play the demo! </a>
 
-<img src="img/snake.gif">
+<img height=400 src="img/snake.gif">
 
 **Table of Contents**
 - [Setup](#setup)
 - [Learning Objectives](#learning-objectives)
-- [Planning](#planning)
 - [Plan of Attack](#plan-of-attack)
-
 
 # Setup
 
@@ -21,7 +19,28 @@ rm -rf asd-template/.git
 
 Then, rename the folder to `snake`
 
-# Learning Objectives
+# Skills Practiced (Bonus points for adhering to best practices)
+- Separation of Concerns and Abstraction
+- Keeping code organized between `initialization`, `core logic`, `helper functions` and `event handler` sections
+- Controlling DOM elements with jQuery
+- Managing data for DOM elements with Objects and Factory Function
+- Managing a collection of Objects with an Array
+- Iteration
+- Initializing new DOM elements with jQuery
 
 # Plan of Attack
+
+0. Before beginning, complete the <a href="https://drive.google.com/open?id=1h9DBLktvwVCODaAn4vg5FKnbkbyYjLIMik5IMYMbhY0" target="_blank"> Snake Worksheet </a>
+1. Get the Snake's head to appear on the screen
+2. Move the snake continously. Limit movement to one axis at a time (horizontal/vertical movement, never diagonal)
+3. Change direction according to keyboard inputs from the user.
+4. Detect collisions between the snake's head and the wall
+5. Get the Apple to appear on the screen
+6. Position the apple randomly
+7. Detect collision between the apple and the snake's head
+8. Reposition the apple upon colliding with the snake.
+9. Add a new snake piece upon colliding with the apple.
+10. Make the new snake pieces follow the snake's head
+11. Detect collision between the snake's head and the rest of its body
+12. Keep track of and display the score
 
