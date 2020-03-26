@@ -40,7 +40,7 @@ Before beginning, complete the <a href="https://drive.google.com/open?id=1h9DBLk
 
 # Requirements
 
-### The Board
+## The Board
 **1) Think of the board as a 2-D grid of 20 pixel * 20 pixel squares.** 
 
 For example If the board is `440` pixels wide and `440` pixels tall:
@@ -58,7 +58,7 @@ snakeHeadRow = 10;
 snakeHeadY = 20 * snakeHeadRow = 200
 ```
 
-### The Snake
+## The Snake
 
 **1) Each component of the snake must be an `{ Object }`**
 
@@ -74,7 +74,7 @@ snakeHeadY = 20 * snakeHeadRow = 200
   - The user controls when the snake's head changes direction
   - The 2nd snake object follow the head, the 3rd follows the 2nd, etc… 
 
-### The Apple
+## The Apple
 **1) The apple must be an `{Object}`**
 
 **2) The apple's location is determined randomly and must be in an unoccupied, valid position.**
