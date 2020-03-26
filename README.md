@@ -1,5 +1,5 @@
 # Snake
-Building Snake from scratch in Advanced Software Development.  <a href="https://benspector3.github.io/projects/snake/index.html" target="_blank"> Play the demo! </a>
+Building Snake from scratch in Advanced Software Development.  <a href="https://benspector3.github.io/projects/snake/index.html" target="_blank"> Play the demo! (Right Click --> Open in new tab) </a>
 
 <img height=400 src="img/snake.gif">
 
