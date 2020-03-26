@@ -29,8 +29,10 @@ Then, rename the folder to `snake`
 - Initializing new DOM elements with jQuery
 
 # Plan of Attack
-
 0. Before beginning, complete the <a href="https://drive.google.com/open?id=1h9DBLktvwVCODaAn4vg5FKnbkbyYjLIMik5IMYMbhY0" target="_blank"> Snake Worksheet </a>
+
+<img src="img/snake-frame-visualization.jpg">
+
 1. Get the Snake's head to appear on the screen
 2. Move the snake continously. Limit movement to one axis at a time (horizontal/vertical movement, never diagonal)
 3. Change direction according to keyboard inputs from the user.
