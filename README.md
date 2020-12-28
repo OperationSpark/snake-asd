@@ -6,7 +6,7 @@ Building Snake from scratch in Advanced Software Development.
 - [Skills Practiced](#skills-practiced)
 - [Worksheet](#worksheet)
 - [Requirements](#requirements)
-- [Plan of Attack](#plan-of-attack)
+- [Grade Rubric and Schedule](#grade-rubric-and-schedule)
 
 <a href="https://benspector3.github.io/projects/snake/index.html" target="_blank"> Play the demo! (Right Click --> Open in new tab) </a>
 
@@ -85,17 +85,42 @@ snakeHeadY = 20 * snakeHeadRow = 200
 
 **4) The number of apples eaten must be displayed**
 
-# Plan of Attack
-1. Get the Snake's head to appear on the screen
-2. Move the snake continously. Limit movement to one axis at a time (horizontal/vertical movement, never diagonal)
-3. Change direction according to keyboard inputs from the user.
-4. Detect collisions between the snake's head and the wall
-5. Get the Apple to appear on the screen
-6. Position the apple randomly
-7. Detect collision between the apple and the snake's head
-8. Reposition the apple upon colliding with the snake.
-9. Add a new snake piece upon colliding with the apple.
-10. Make the new snake pieces follow the snake's head
-11. Detect collision between the snake's head and the rest of its body
-12. Keep track of and display the score
+# Grade Rubric and Schedule
 
+## Best Practices (30 points)
+
+1. All code in proper sections (setup, core, helpers, etc.) - 5 points
+2. Use objects to store data - 5 points
+3. Use comments to describe setup and functions - 5 points
+4. Use factory functions - 5 points
+5. Use helper functions to separate concerns - 5 points
+6. Generalize functions (i.e. only one collision detection function) - 5 points
+
+## Program Content (70 points)
+
+### Week 1
+
+1. Get the snake head and apple to appear on screen - 5 points
+2. Set framerate to 10 - 0 points
+3. Get the snake to move continuously - 5 points
+4. Change directions with arrow or WASD keys - 5 points
+
+### Week 2
+
+1. Prevent the snake from reversing with a single input - 5 points
+2. Detect wall collisions (and end game on collision) - 5 points
+3. Make the score appear on screen - 5 points
+4. Bonus - Prevent the snake from reversing even with multiple inputs per frame - 5 points
+
+### Week 3
+
+1. Detect snake-apple collisions - 5 points
+2. Move the apple randomly on collision (must not be able to reappear on snake) - 5 points
+3. Create proper CSS for snake body class - 5 points
+4. Create working function to add new snake pieces - 10 points
+5. Increase score and add new snake piece on apple collision - 5 points
+
+### Week 4
+
+1. Have the snake's body follow the head - 5 points
+2. Check for head collision with the body (and end game on collision) - 5 points
