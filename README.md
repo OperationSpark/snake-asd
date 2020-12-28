@@ -94,7 +94,7 @@ snakeHeadY = 20 * snakeHeadRow = 200
 3. Use comments to describe setup and functions - 5 points
 4. Use factory functions - 5 points
 5. Use helper functions to separate concerns - 5 points
-6. Generalize functions (i.e. only one collision detection function) - 5 points
+6. Generalize functions (i.e. only one collision detection function, not including wall collisions) - 5 points
 
 ## Program Content (70 points)
 
