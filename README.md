@@ -14,14 +14,13 @@ Building Snake from scratch in Advanced Software Development.
 
 # Setup
 
-To install this project, first clone the [template](https://github.com/OperationSpark/asd-template) repository by entering these commands into your bash terminal:
+To install this project, first clone the [template](https://github.com/OperationSpark/asd-template) repository, then move and rename the folder by entering these commands into your bash terminal:
 
 ```bash
 git clone https://github.com/OperationSpark/asd-template
 rm -rf asd-template/.git
+mv asd-template asd-projects/snake
 ```
-
-Then, rename the folder to `snake`
 
 # Skills Practiced
 - Separation of Concerns and Abstraction
